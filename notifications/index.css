@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color:  silver;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    padding-left: 8em;
+    position: relative;
+    bottom: 20%;
+}
+#block{
+    flex: 3;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    width: 20%;
+    height: 10em;
+    margin: 1em;
+   
+}
+
+button{
+    border: 0.1em solid;
+    border-radius: 0.5em;
+    padding: 2%;
+    align-self: center;
+    color: white;
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}   
+
+.yellow{
+    background-color: yellow;
+} 
+
+.blue{
+    background-color: blue;
+}
+
+#generer{
+    flex: 1;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    right: -45%;
+    margin-top: 15%;
+   }
+
+   .style{
+       display: flex;
+       color: white;
+       height: 10vh;
+       align-items: center;
+       justify-content: center;
+   }
+
+
+
+  
+      
+       
+    
+
